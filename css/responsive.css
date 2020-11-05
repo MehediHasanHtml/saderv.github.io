@@ -1,0 +1,293 @@
+/* ****************
+Ratina
+************** */
+
+@media (max-width: 1920px){
+
+
+}
+
+
+@media (max-width: 1680px){
+
+
+}
+
+@media (max-width: 1440px){
+
+
+}
+
+
+
+/* ****************
+Desktop
+************** */
+
+@media (max-width: 1024px){
+.center-nav {
+    margin-left: 5%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+}
+.table-top:after {
+    border-top: 15px solid transparent;
+    border-left: 150px solid #fff;
+    border-right: 150px solid #fff;
+}
+
+
+}
+
+
+@media (max-width: 991px){
+.quetes img {
+    height: 40px;
+}
+.quete img {
+    height: 40px;
+}
+.quete {
+    position: absolute;
+    top: 94px;
+    right: 130px;
+    z-index: 9999;
+}
+.quetes {
+    position: absolute;
+    bottom: 50px;
+    left: 130px;
+    z-index: 9999;
+}
+.table-top:after {
+    border-top: 15px solid transparent;
+    border-left: 110px solid #fff;
+    border-right: 110px solid #fff;
+}
+.populer h3 {
+    font-size: 17px;
+}
+.populer h3:after {
+    top: 67px;
+}
+
+}
+
+
+
+
+@media (max-width: 768px){
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 12px;
+}
+.center-nav {
+    margin-left: 5%;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 8px;
+}
+.quete {
+    position: absolute;
+    top: 94px;
+    right: 15px;
+    z-index: 9999;
+}
+.quetes {
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    z-index: 9999;
+}
+
+}
+
+/* **************** 
+Tab 
+************** */
+
+@media (max-width: 767px){
+.navbar-header {
+    float: left;
+
+}
+.navbar-toggle {
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+    margin-top: 33px;
+    margin-right: 23px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+}
+
+
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -12px;
+    width: -webkit-fill-available;
+}
+
+.navbar-nav>li {
+    float: none;
+}
+
+.table-top:after {
+    border-top: 15px solid transparent;
+    border-left: 360px solid #fff;
+    border-right: 360px solid #fff;
+   
+}
+.populer h3:after {
+    top: 37px;
+}
+.mobile-left img {
+    height: 280px;
+    margin-top: -30px;
+}
+.mobile-right {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+}
+
+
+@media (max-width: 480px) {
+.slide-image {
+	height: 400px;
+}
+.slide-image img {
+	height: 400px;
+}
+.table-top:after {
+    border-top: 15px solid transparent;
+    border-left: 220px solid #fff;
+    border-right: 220px solid #fff;
+}
+
+
+}
+
+
+@media (max-width: 414px) {
+
+.table-top:after {
+    border-top: 15px solid transparent;
+    border-left: 180px solid #fff;
+    border-right: 180px solid #fff;
+}
+
+
+}
+
+
+
+/* **************** 
+Mobile 
+************** */
+@media (max-width: 375px) {
+.slider-title h2 {
+    font-size: 38px;
+}
+.slider-title h3 {
+    color: #fff;
+    font-size: 18px;
+}
+.sss h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+.quete {
+    position: absolute;
+    top: 84px;
+    right: 15px;
+    z-index: 9999;
+}
+
+.mobile-left img {
+    height: 250px;
+    margin-top: -24px;
+}
+
+.mobile-right h3 {
+    font-size: 30px;
+    color: #e01662;
+}
+.mobile-right h4 {
+    font-size: 22px;
+    color: #fff;
+}
+.table-top:after {
+    border-top: 15px solid transparent;
+    border-left: 160px solid #fff;
+    border-right: 160px solid #fff;
+}
+
+.main-slider .owl-carousel .owl-prev i {
+    font-size: 48px;
+    color: #fff;
+}
+
+.main-slider .owl-carousel .owl-next i {
+    font-size: 48px;
+    color: #fff;
+}
+.populer ul li a span.diffrent {
+    display: inline-block;
+    margin-left: -3px;
+}
+
+
+}
+
+@media (max-width: 360px) {
+.table-top:after {
+    border-top: 15px solid transparent;
+    border-left: 160px solid #fff;
+    border-right: 160px solid #fff;
+}
+.populer ul li a span{
+    margin-left: 20px;
+    display: inline-block;
+}
+.populer ul li a span.diffrent {
+    display: inline-block;
+    margin-left: -30px;
+}
+
+
+
+}
+
+@media screen and (max-width: 320px) {
+.table-top:after {
+    border-top: 15px solid transparent;
+    border-left: 130px solid #fff;
+    border-right: 130px solid #fff;
+}
+
+
+
+
+}

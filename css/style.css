@@ -1,0 +1,743 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name:Responsive Multipurpose HTML5 Template
+    Template URI: http://swiftcodeit.com
+    Description: Responsive Multipurpose, one page, Portfolio, Business,  Creative HTML Templatee
+    Author: Mehedi Hasan
+    Author URI: http://mrmehedihasan.com
+    Version: 1.0
+
+CSS INDEX
+    ===================
+
+-----------------------------------------------------------------------------------*/
+body{
+    margin: 0;
+}
+
+/**********************************************************************
+                        Typography Style
+***********************************************************************/
+
+
+h1{
+    font-size: 36px;
+  
+}
+
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+    
+}
+
+
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 16px;
+}
+h6 {
+    font-size: 14px;
+}
+p {
+    font-size: 14px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/* *****************************************************
+main-nagigation 
+**************************************************** */
+.header-area {
+    position: relative;
+    background: transparent;
+}
+
+.navbar-brand {
+    float: right;
+    height: auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-header {
+    float: right;
+} 
+
+.navbar-brand>img {
+    display: block;
+    height: 60px;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed!important;
+}
+.navbar {
+    position: relative;
+    height: 80px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
+.navbar-default {
+        background-color: rgba(0,0,0,0.9);
+    border-color: transparent;
+    z-index: 9999;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #e01662;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #e01662;
+    background-color: transparent;
+}
+.navbar-nav>li {
+    float: right;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    margin-top: 17px;
+}
+.navbar-right {
+    float: left!important;
+    margin-right: -15px;
+}
+
+
+.navbar-right a.btn-cus {
+    border: 1px solid #e01662;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+.navbar-right a.btn-cus:hover {
+    border: 1px solid #e01662;
+    background: #e01662!important;
+    transition: all 0.3s ease;
+    color: #fff!important;
+}
+
+
+.navbar-right a.btn-cusa {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    color: #e01662!important;
+    margin-top: 10px;
+}
+
+
+
+a.btn-custom {
+    text-decoration: none;
+    border: 1px solid #e01662;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    color: #fff;
+    font-size: 16px;
+}
+a.btn-custom:hover {
+    border: 1px solid #e01662;
+    background: #e01662!important;
+    transition: all 0.3s ease;
+}
+
+
+a.btn-customs {
+    text-decoration: none;
+    border: 1px solid #e01662;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    color: #fff!important;
+    margin-top: 10px;
+    font-size: 16px;
+    background: #e01662!important;
+}
+
+
+
+.navbar-default .navbar-nav>li>a.active-link {
+    color: #e01662;
+    background-color: transparent;
+}
+
+
+.navbar-nav li.active a{
+      color: #e01662;
+    background-color: transparent;
+}
+
+
+.center-nav {
+    margin-left: 15%;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+
+
+
+
+/* --------------------------------------------
+main-slider
+------------------------------------------------- */
+.main-slider {
+
+}
+
+
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+} 
+
+.slide-image {
+    position: relative;
+}
+
+.main-slider .owl-carousel .owl-prev i{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    font-size: 58px;
+    color: #fff;
+}
+.main-slider .owl-carousel .owl-next i{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    font-size: 58px;
+    color: #fff;
+}
+
+.main-slider .owl-carousel .owl-prev i:hover{
+    color: #e01662;
+}
+.main-slider .owl-carousel .owl-next i:hover{
+    color: #e01662;
+}
+
+.slider-title {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.slider-title h3 {
+    color: #fff;
+    font-size: 20px;
+}
+.slider-title h2{
+    font-size: 42px;
+    color: #e01662;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-title p{
+    color: #fff;
+}
+
+.slide-btn {
+    position: absolute;
+    top: 75%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* -----------------------------------------------
+services-area
+--------------------------------------------- */
+
+.services-area {
+    overflow: hidden;
+    background: url('../images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.services-list h3{
+   color: #e01662;
+}
+.services-list {
+    background: #221d23;
+    padding: 10px 10px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e01662;
+}
+.services-list img{
+    height: 50px;
+    margin: 0 auto;
+    margin-top: -36px;
+}
+.single-ser h2{
+    color: #e01662;
+}
+
+
+
+/* ------------------------------------------------
+pricing-table
+--------------------------------------------------- */
+
+.pricing-table {
+    overflow: hidden;
+    background: #1a181d;
+    padding: 30px 0;
+    text-align: center;
+}
+.sss h2{
+    color: #fff;
+    text-align: center;
+}
+.table-list {
+    margin-top: 30px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+.table-list:hover .table-top{
+    background: #e01662!important;
+    transition: all 0.3s ease;
+}
+.table-list:hover .custom {
+    background: #e01662!important;  
+    transition: all 0.3s ease;
+}
+
+
+.table-top {
+    background: #5f5f5f;
+    color: #fff;
+        overflow: hidden;
+}
+
+.table-top:after{
+    display: block;
+    content: '';
+    clear: both;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 180px solid #fff;
+    border-right: 180px solid #fff;
+}
+.table-top h4{
+    font-size: 20px;
+}
+
+.table-body p{
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+
+.table-btn {
+    padding-bottom: 20px;
+}
+
+.table-btn .custom {
+    text-decoration: none;
+    padding: 8px 30px;
+    background: #5f5f5f;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+
+    transition: all 0.3s ease;
+}
+
+
+.ssss p{
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* --------------------------------------------
+populer-services
+---------------------------------------------- */
+
+.populer-services {
+    background: url('../images/bg3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.populer {
+    overflow: hidden;
+    background: #fff;
+    margin-top: 30px;
+}
+
+
+.populer h3 {
+    background: #e01662;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 30px;
+    text-align: right;
+    margin-top: 0;
+}
+.populer h3:after{
+    display: block;
+    content: '';
+    clear: both;
+    position: absolute;
+    top: 76px;
+    right: 38px;
+    display: inline-block;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #e01662;
+    border-bottom: 0 solid #e01662;
+    border-left: 10px solid transparent
+
+}
+.populer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.populer ul li {
+    list-style: none;
+    text-align: right;
+}
+.populer ul li a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: right;
+        padding: 6px 20px;
+    color: #000;
+    font-size: 13px;
+}
+
+.populer ul li a img {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+
+
+.populer ul li a span.diffrent{
+    display: inline-block;
+}
+.populer ul li a img.diffrents {
+    margin-top: -30px;
+}
+
+
+
+
+/* -----------------------------------------------
+testimonils-area
+------------------------------------------------- */
+
+.testimonils-area {
+    background: #201e23;
+    padding: 30px 0;
+    position: relative;
+}
+
+.testimonils-area .item {
+    background: #100f11;
+   padding: 30px 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+   
+}
+.testi {
+    background: #201e23: 
+}
+
+.testi .man {
+    margin-top: 60px;
+}
+
+.man img {
+    height: 40px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.testimonils-area .owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}
+
+.testimonils-area .owl-carousel .owl-prev i{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    height: 100%;
+    font-size: 50px;
+    color: #e01662;
+}
+.testimonils-area .owl-carousel .owl-next i{
+    position: absolute;
+    top: 35%;
+    right: 0;
+    height: 100%;
+    font-size: 50px;
+    color: #e01662;
+}
+
+
+.testimonils-area .owl-carousel .owl-dots {
+    text-align: center;
+}
+
+
+.testimonils-area .owl-carousel .owl-dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.testimonils-area .owl-carousel .active{
+    background: #e01662;
+}
+
+
+.quete {
+    position: absolute;
+    top: 85px;
+    right: 100px;
+    z-index: 9999;
+}
+
+.quete img {
+    height: 50px;
+}
+
+.quetes img {
+    height: 50px;
+}
+
+.quetes {
+    position: absolute;
+    bottom: 44px;
+    left: 100px;
+    z-index: 9999;
+}
+
+
+
+
+
+/* -------------------------------------------
+mobile-area-
+------------------------------------------ */
+
+.mobile-area {
+    
+    background: url('../images/bg4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mobile-right {
+    margin-top: 60px;
+    text-align: center;
+}
+.mobile-right h3{
+    font-size: 40px;
+    color: #e01662;
+}
+.mobile-right h4{
+    font-size: 30px;
+    color: #fff;
+}
+
+.mobile-right ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.mobile-right ul li {
+    list-style: none;
+    display: inline;
+}
+
+.mobile-right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+.mobile-right ul li a img {
+    height: 40px;
+    margin: 0 auto;
+}
+
+
+
+.mobile-left img {
+    height: 350px;
+    margin-top: -30px;
+}
+
+
+
+
+/* ------------------------------------------
+contact-form
+---------------------------------------------- */
+
+.contact-form {
+    background: #1a181d;
+    padding: 30px 0;
+    text-align: center;
+}   
+
+
+.contact {
+    text-align: center;
+    color: #fff;
+}
+.contact h3 {
+    font-size: 26px;
+}
+.contact p{
+    color: #e01662;
+}
+.contact img {
+    height: 50px;
+    margin: 0 auto;
+}
+
+
+
+.form-control {
+    display: inline-block;
+    width: 100%;
+    height: 34px;
+    text-align: right;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #151416;
+    background-image: none;
+    border: 1px solid #2d2b2b;
+    border-bottom: 1px solid #e01662;
+    border-radius: 0px;
+}
+
+
+.form-control:focus {
+    border-color: transparent;
+    border-bottom: 1px solid #e01662;
+    outline: 0;
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit;
+}
+
+
+.btn-default {
+    color: #fff;
+    background-color: #e01662;
+    border-color: #e01662;
+    border-radius: 30px;
+    padding: 6px 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #fff;
+    background-color: #e01662;
+    border-color: #e01662;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #e01662;
+    border-color: #e01662;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------
+footer-area
+--------------------------------------------------- */
+
+.footer-area {
+    background: #100e13;
+    color: #fff;
+    padding: 20px 0;
+}
+.copy ul{
+    margin: 0;
+    padding: 0;
+}
+
+.copy ul li {
+    list-style: none;
+}
+
+.copy ul li a{
+    float: right;
+    font-size: 16px;
+    background: #e01662;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin-left: 5px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
